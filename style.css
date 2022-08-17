@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* Header_START */
+header{
+    background: url(./images/header_bg1.jpg)no-repeat center center / cover;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 260px;
+}
+.header_son{
+    width: 1110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.header_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 180px;
+}
